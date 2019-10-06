@@ -1,0 +1,182 @@
+{
+  "main": {
+    "name":"Thomas Skinner",
+    "occupation":"Computer Science",
+    "description":" from Rutgers University. I'm looking for software engineering roles that begin in January 2020 or after. Scroll down to learn more about me :)",
+    "image":"profilepic.jpg",
+    "bio": "I love software engineering. Although this is my last semester at Rutgers University, I learned most of what I know outside of classes. Programming is more than a study, it’s my favorite hobby. I started programming very young by creating mods for some Blizzard games.\n\n I am seriously knowledgeable when it comes to programming languages. I like to tinker and understand their functionality on a deep level. I can adjust to using any programming language professionally very quickly. I have experience with C++, Javascript, Python, Haskell, Clojure, C, C#, Java, and more. \n\n I am an experienced linux user, and I use it on my personal computer. I have graduated through many text editors, and have found myself using Emacs recently.  \n\n I actually learned to write highly efficient C++/C code by working on real-time computer graphics projects. I am a talented systems programmer, and have professional internship experience as such.\n\n I’m also really interested in machine learning. This past summer, I collected massives amounts of data from cryptocurrency exchanges. Then I learned tensorflow, and I worked on applying reinforcement learning to the market data.\n\n I know how to collaborate. I have demonstrated my strong interpersonal skills and ability to convey complex concepts as a computer science tutor. I enjoyed collaboration on class projects and during my internship at SIG.\n\n Of course I know OOP well, but I’m also a big advocate of functional programming. And I know how to write unit tests.\n\n Please contact me about Software Engineering roles or if you have any questions.\n",
+    "contactmessage":"Please contact me if you have any questions.",
+    "email": "thomasskinner76@gmail.com",
+    "phone": "908-458-3276",
+    "address":{
+      "street":"",
+      "city":"Raritan",
+      "state":"New Jersey",
+      "zip": "08869"
+    },
+    "website": "http://www.thomasskinner.github.io",
+    "resumedownload":"resume.pdf",
+    "social":[
+      {
+        "name":"github",
+        "url":"https://github.com/ThomasSkinner",
+        "className":"fa fa-github"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/thomasskinnerdev/",
+        "className":"fa fa-linkedin"
+      },
+       {
+        "name":"stack-overflow",
+        "url":"https://stackoverflow.com/users/1525061/thomas?tab=profile",
+        "className":"fa fa-stack-overflow"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"These are some tools that I like",
+    "education":[
+      {
+        "school":"Rutgers University",
+        "degree":"Bachelor's of Science in Computer Science",
+        "graduated":"Expected January 2020",
+        "description":"Rutgers is an excellent school with a heavy CS curriculum."
+      }
+    ],
+    "work":[
+      {
+        "company":"Susquehanna International Group",
+        "title":"Software Engineering Intern",
+        "years":"June 2018 - August 2018",
+        "description":"Wrote production level parsers for market data feeds. Wrote a feature-rich network data analyzation tool which displayed graphs and statistics in configurable output. Contributed to a large and performance critical c++ code base."
+      },
+      {
+        "company":"Computer Science Tutor",
+        "title":"Self employed",
+        "years":"January 2016 - December 2017",
+        "description":"Mentored college level students with their programming abilities"
+      }
+    ],
+	"skills": [
+
+      {
+        "name":"postgres",
+        "description":"I use Git for all of my projects so far. I have used Git for version control in small teams and have toyed around with contributing to Open Source Projects.",
+        "image":"postgres.png"
+      },
+      {
+        "name":"Haskell",
+        "description":"",
+        "image":"haskell.png"
+      }
+	],
+    "tech":[
+      {
+        "name":"TensorFlow",
+        "description":"",
+        "image":"tensorflow.png"
+      },
+      {
+        "name":"Haskell",
+        "description":"",
+        "image":"haskell.png"
+      },
+      {
+        "name":"postgres",
+        "description":"",
+        "image":"postgres.png"
+      },
+      {
+        "name":"C++",
+        "description":"",
+        "image":"c++.png"
+      },
+      {
+        "name":"ReactiveX",
+        "description":"",
+        "image":"reactivex.png"
+      },
+      {
+        "name":"OpenGL",
+        "description":"",
+        "image":"opengl.svg"
+      },
+      {
+        "name":"Node",
+        "description":"",
+        "image":"node.png"
+      },
+      {
+        "name":"Spacemacs",
+        "description":"",
+        "image":"spacemacs.png"
+      },
+      {
+        "name":"React",
+        "description":"",
+        "image":"react.png"
+      },
+      {
+        "name":"Linux",
+        "description":"",
+        "image":"linux.png"
+      },
+      {
+        "name":"Clojure",
+        "description":"",
+        "image":"clojure.png"
+      },
+      {
+        "name":"Java",
+        "description":"",
+        "image":"java.png"
+      },
+      {
+        "name":"Python",
+        "description":"",
+        "image":"python.svg"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"C++ software renderer",
+        "category":"Uses highly efficient SIMD vector instructions / C++ intrinsics. I created the engine to learn about the feasibility of combining software occlusion culling with octree rendering.",
+        "image":"cppvoxelss.png",
+        "url":"https://github.com/ThomasSkinner/Software-Occlusion-Octree-Renderer"
+      },
+      {
+        "title":"Shadow-Volumes-and-Voxels-Experiment",
+        "category":"Features real time lighting and shadows. Uses shadow volume algorithm to produce sharp and realistic shadows. Uses traditional meshing techniques for object rendering.",
+        "image":"javavoxels.png",
+        "url":"https://www.youtube.com/watch?v=8ILKMSTKKCc"
+      },
+      {
+        "title":"GLSL Ray Tracer",
+        "category":"Created voxel ray tracer that renders high resolution scenes in real time using GLSL and LWJGL. Developed strategy for efficiently storing and traversing scene geometry in parallel on the GPU.",
+        "image":"github.jpg",
+        "url":"https://github.com/ThomasSkinner/Sparse-Voxel-Raytracer"
+      },
+      {
+        "title":"Starcraft Mod",
+        "category":"Created a mod for the Starcraft 2 arcade. Designed & Implemented rigid body physics engine, user interfaces, game mechanics, more.",
+        "image":"starcraft.png",
+        "url":"https://www.youtube.com/watch?v=Sk39MSDMkP0"
+      }
+    ]
+  },
+  "testimonials":{
+    "testimonials":[
+      {
+        "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
+        "user":"Kareem Abdul Jabbar"
+      },
+      {
+        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+        "user":"Steve Wozniak... impersonator"
+      }
+    ]
+  }
+}
